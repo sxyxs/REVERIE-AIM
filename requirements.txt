@@ -1,0 +1,9 @@
+# habitat-sim 0.1.7 and habitat-lab 0.1.7 are not on PyPI in this version;
+# install them first following the VLN-CE setup (Python 3.8).
+torch==2.4.1
+torchvision==0.19.1
+transformers==4.46.3
+numpy==1.23.5
+numpy-quaternion==2023.0.4
+Pillow==9.4.0
+tqdm==4.66.4

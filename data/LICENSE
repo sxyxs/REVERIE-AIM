@@ -1,0 +1,22 @@
+REVERIE-AIM data license
+========================
+
+The files in this directory (reverie_aim_train.json.gz,
+reverie_aim_val_unseen.json, target_phrases.json) are derived from:
+
+  - REVERIE (Qi et al., CVPR 2020): instructions and target objects
+  - REVERIE-CE in the VLN-CE format: episodes
+  - MP3D ObjectNav (Habitat): target viewpoints
+  - Matterport3D (Chang et al., 3DV 2017): scenes and semantic instance ids
+
+Because they derive from the Matterport3D dataset, they are distributed under
+the Matterport3D Terms of Use and the Creative Commons
+Attribution-NonCommercial-ShareAlike 3.0 United States license
+(CC BY-NC-SA 3.0 US), the same terms as the VLN-CE datasets.
+
+  Matterport3D Terms of Use: https://kaldir.vc.in.tum.de/matterport/MP_TOS.pdf
+  CC BY-NC-SA 3.0 US:        https://creativecommons.org/licenses/by-nc-sa/3.0/us/legalcode
+
+Use is limited to non-commercial academic research. No Matterport3D scene
+data (meshes, images) is included; obtain it from Matterport3D after
+accepting their Terms of Use.
